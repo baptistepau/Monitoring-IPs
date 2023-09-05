@@ -1,0 +1,83 @@
+
+/*NAV*/
+nav {
+    background-color: #002d5b ;
+    text-align: center;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.left {
+    margin-right: auto;
+}
+
+.right {
+    margin-left: auto; 
+}
+nav img {
+    width: 80px;
+    height: 40px;
+}
+
+/*body*/
+body{
+    width: 99%;
+    background-color: white;
+}
+/*gestion image*/
+.image{
+    width: 100%;
+    max-width: 900px; /* Remplace cette valeur par la taille souhaitée */
+    height: auto;
+
+}
+.alignImage{
+    text-align: center;
+}
+p img {
+    width: 20px;
+    height: 20px;
+}
+/*text*/
+h1{
+    font-size: 40px;
+    color : darkblue;
+}
+p{
+    font-size: 25px;
+    color :black;
+}
+hr{
+    width: 30%;
+    align-self: center;
+    height: 5px;
+    background-color :darkblue;
+}
+    
+/*bouton*/
+button{
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 0 auto;
+    width: 60%;
+
+    &:hover {
+        background-color: grey;
+        color: white;
+      }
+
+    &:active {
+        background-color: blue;
+        color: white;
+    }
+}

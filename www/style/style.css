@@ -1,0 +1,149 @@
+/*NAV*/
+nav {
+    background-color: #002d5b ;
+    text-align: center;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.left {
+    margin-right: auto;
+}
+
+.right {
+    margin-left: auto; 
+}
+nav img {
+    width: 80px;
+    height: 40px;
+}
+/*footer*/
+footer button {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+footer a {
+    text-decoration: none;
+}
+a button {
+    text-decoration: none;
+}
+/*body*/
+body{
+    background-color: lightgrey;
+}
+p{
+    font-size: 20px; 
+}
+h1{
+    color: darkblue;
+    font-size: 30px;
+}
+h2{
+    color: #002d5b;
+    font-size: 30px;
+}
+
+#backblock{
+    text-align: center;
+}
+/*table*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+
+.titre {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+td
+{
+    border : 1px solid black;
+    font-size: 35px;
+    border-color: black;
+    width: 50%;
+}
+/*bouton*/
+.boutton {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    border: solid black;
+    color: white;
+    background-color: grey;
+}
+
+.back{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 30px;
+    align-self: center;
+    border: solid black;
+    color: white;
+    background-color: grey;
+    width: 30%;
+}
+
+.boutonCancel{
+    background-color: red;
+    color : white;
+}
+
+.boutonValider{
+    background-color: green;
+    color : white;
+}
+
+button{
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 0 auto;
+    width: 60%;
+
+    &:hover {
+        background-color: grey;
+        color: white;
+      }
+
+    &:active {
+        background-color: blue;
+        color: white;
+    }
+}
+
+/*input*/
+input[type="text"] 
+{
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-right: 10px;
+    width: 100%;
+}
+select
+{
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-right: 10px;
+    width: 100%;
+}
